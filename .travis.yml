@@ -13,4 +13,4 @@ install:
 
 before_script:
   - python ./setup.py install
-script: "cd unittests && py.test *.py && cd ../integration_tests && py.test . && cd ../c_data_specification && make && make check"
+script: "cd c_data_specification && make check"
