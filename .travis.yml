@@ -4,6 +4,8 @@ matrix:
     - python: "2.7"
     - pytest
 
+sudo: required
+
 virtualenv:
   system_site_packages: true
 
